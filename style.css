@@ -43,7 +43,7 @@ h2 {
     width: 350px;
         /*  Width includes content, padding, and border inside with total width */
     border-radius: 5px;
-    height: auto;
+    height: 400px;
     padding: 20px;
     
 }
