@@ -1,17 +1,16 @@
 /* Ordered: Element selectors/ class selectors / ID selectors */
 
+/* Star Selector (Selects every element in html file */
 * {
     box-sizing: border-box;
-    /*  Includes the padding and border when setting a width or height for an element */
-    
-    
+    /*  Includes the padding and border when setting a width or height for an element */    
 }
 
 body {
-     background-color: #0275ff;
-     font-family: 'Open Sans', sans-serif;
-        /*  Will be inherited by all other elements within the body */
+    background: #0275ff;
     color: #eef1ef;
+    font-family: 'Open Sans', sans-serif;
+        /*  Will be inherited by all other elements within the body */
     display: flex;
         /*  Flexbox used to center div container vertically and horizontally */
         /*  (Will turn body into flexbox container and all child elements flexbox items) */
@@ -20,7 +19,7 @@ body {
     align-items: center;
         /* Align along horizontal axis */
     height: 100vh;
-        /* Setting height to 100 viewport height so the div container wil be centered vertically in viewport */
+        /* Setting height to 100 viewport height so the div container will be centered vertically in viewport */
     padding: 25px;
         /* So the div container isn't on the edges of snaller screens/viewports, padding provides to keep from being on edges */  
 }
@@ -36,15 +35,15 @@ h2 {
 
 .container {
     background: #443850;
-    margin: 15px;
+    padding: 15px;
         /* Margin is the space between our element and other elements */
         /* padding is space between element and border */
         /* content > padding > border > margin */
     width: 350px;
         /*  Width includes content, padding, and border inside with total width */
     border-radius: 5px;
-    height: 400px;
-    padding: 20px;
+    /* height: 400px; */
+    /* padding: 20px; */
     
 }
 
